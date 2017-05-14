@@ -13,6 +13,7 @@
 	<!-- 添加注解驱动 -->
 	<mvc:annotation-driven />
 
+	<!-- 返回json支持 -->
 	<bean id="jsonConverter"
 		class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
 		<property name="supportedMediaTypes">
